@@ -1,0 +1,39 @@
+.TextWrap {
+	float: right;
+	margin: 10px;
+}
+.TextWrapLeft{
+	float: left;
+	margin: 10px;
+}
+#firstpage {
+	background-color:#5dd0c0;
+	margin-left: 42px;
+	width: 1102px;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both;
+	padding-left: 20px;
+}
+#secondpage {
+	background-color:#00a08a;
+	margin-left: 42px;
+	width: 1102px;
+	margin-right: auto;
+	overflow: hidden;
+	clear: both;
+	padding-left: 20px;
+}
+#bio{
+	margin-left: auto;
+	margin-right: auto;
+}
+.description {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+}
+h1 {
+	text-align: center;
+	font-size: 48px;
+}

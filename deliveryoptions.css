@@ -1,0 +1,51 @@
+td{
+	border: solid;
+	border-color: black;
+	background-color: #00685A;
+	width: 10%;
+	height: 50px;
+	text-align: center;
+}
+#orderopts{
+	text-align:center;
+	width: 98%;
+	margin: 1%;
+	background-color: #34D0BA;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: .1px;
+}
+#optionsinfo{
+	text-align:center;
+	width: 100%;
+}
+.button{
+	text-align: center;
+	width: auto;
+	height: auto;
+	border:solid;
+	border: black;
+}
+.fillin{
+	text-align: center;
+	width: 70%;
+	height: 8%;
+	border:solid;
+	border: black;
+	margin: 10px;
+	
+}
+.hide{
+	visibility: hidden;
+}
+#title{
+	background-color: #34D0BA;
+	margin: 10px;
+	padding: 10px;
+}
+#info2{
+	padding: 10px;
+	width:60%;
+	margin: 10px;
+	background-color: #00685A;
+}

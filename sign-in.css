@@ -1,0 +1,35 @@
+#register, #sign_in {
+	border-style: solid;
+	border-width: 10px;
+	border-color: #00685A;
+	width: 44.5%;
+	margin: 1%;
+	padding: 1%;
+	padding-top: 0;
+	background-color: #34D0BA;
+	height: 250px;
+}
+#sign_in {
+	float: left;
+	margin-right: 0.5%;
+}
+#register {
+	float: right;
+	margin-left: 0.5%;
+}
+.submit, #cancel {
+	clear: both;
+}
+#registration{
+	border-style: solid;
+	border-width: 10px;
+	border-color: #00685A;
+	width: 94%;
+	margin: 1%;
+	padding: 1%;
+	padding-top: 0;
+	background-color: #34D0BA;
+	height: 100%;
+}
+td{
+}

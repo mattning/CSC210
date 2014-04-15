@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title> Restaurant's Name </title>
+		<link rel="stylesheet" type="text/css" href="deliveryoptions.css">
+		<link rel="stylesheet" href="background.css">
+		<link rel="stylesheet" href="shoppingcart.css">
+		<script type="text/javascript" src="deliveryoptions.js"></script>
+		<script type="text/javascript" src="regex.js"></script>
+	</head>
+<body>
+<div id="background">
+	<div id="banner">
+		<div id="logo">
+		<img src="logo.png" alt="logo" >
+		</div>
+	</div>
+		
+	<div id="semiback">
+		
+		<div id="bannerinfo">
+			<div id="info">
+				<p>Address: </p>
+				<p>Store Hour:</p>
+				<p>Phone Number: </p>
+			</div>
+			<div id="accountlink">
+				<a href = "signin.php"> My Account: </a>
+			</div>	
+		</div>
+		
+		<br>
+		<br>
+		<br>
+		
+		<div id="navibar">
+			<nav id="nav">
+				<ul>
+					<li class="navbut">
+						<a href = "select.html"> Home </a>
+					</li>
+					<li class="navbut">
+						<a href = "homepage.html"> About Us </a>
+					</li>
+					<li class="navbut">
+						<a href="menuHome.html">Menu</a>
+					</li>
+					<li class="navbut">
+						<a href="deliveryoptions.html">Order Online</a>
+					</li>
+					<li class="navbut">
+						<a href="catering.html"> Catering </a>
+					</li>
+					<li class="navbut" id="last">
+						<a href="sitemap.html"> Site Map </a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div id="mainpage">
+		<span id="mainpagespan">
+			<div id = "cart">
+				<div id = "carttitle">
+					<h2 > SHOPPING CART </h2>
+				</div>
+				<p class="item"> Item 1 </p>
+				<p class="item"> Item 2 </p>
+				<p class="item"> Item 3 </p>
+				<p class="item"> Item 4 </p>
+				<p class="item"> Item 5 </p>
+				<p class="item"> Item 6 </p>
+				<button type="submit" name="Submit" value="Submit" class="submit"> EDIT CART </button> 
+			</div>
+			<div id="info2">
+				<div id = "orderopts">
+					<form>
+						<input type="radio" id = "takeout" name="Takeout" value="Takeout" class="button" onclick="pick('Takeout')"> TAKEOUT
+						<input type="radio" id = "delivery" name="Delivery" value="Delivery" class="button" onclick="pick('Delivery')"> DELIVERY
+						<input type="radio" id = "onsite" name="OnSite" value="On-site" class="button" onclick="pick('Onsite')"> ON-SITE
+					</form>
+				</div>
+				<div id = "optionsinfo">
+					<div id = "title">
+					</div>
+				</div>
+			</div>
+		</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>

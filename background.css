@@ -1,0 +1,160 @@
+p, h1, h2, label.info, td, #register ul li, a {
+	font-family:"Helvetica";
+	font-weight:200;
+	font-size: 17px;
+}
+#nav ul li {
+	font-family:"Helvetica";
+	font-weight:200;
+}
+#body{
+	background-color: #3BA3D0;
+}
+body {
+	background-color:#00A080;
+	overflow: auto;
+	overflow-y: scroll;
+	overflow-x: scroll;
+	margin-left: 2%;
+	margin-right: 2%;
+	background-color: #3BA3D0;
+	/*color: #8F7C30;*/
+	font-family: "Helvetica";
+	font-weight: 200px;
+	/*overflow-y: hidden;*/
+	/*width: 5000px;*/
+}
+#semiback {
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+	width: 95%;
+}
+#logo {
+	float: left;
+	margin-left: 55px;
+	margin-right: auto;
+}
+#banner {
+	/*border-radius: 5px;*/
+	background-color:#0772A1;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 100%;
+	height: 170px;
+	z-index: -1;
+}
+#mainpage {
+	background-color:#5dd0d0;
+	margin-left: 42px;
+	width: 1122px;
+	/*width: 100%;*/
+	/*height: 2000px;*/
+	/*clear: both;*/
+	/*min-height: 1000px;*/
+	margin-right: auto;
+	overflow: hidden;
+	clear: both;
+}
+#mainpagespan {
+	margin-left: auto;
+	margin-right: auto;
+}
+#menuspan {
+	display: inline-block;
+	overflow: auto;
+}
+#navibar {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	overflow: hidden;
+}
+#nav {
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: right;
+}
+#nav ul {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#nav ul li {
+	text-align: center;
+	display: block;
+	float: left;
+	background: #ffbd73;
+	/*padding: 20px;*/
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-size: 24px;
+	width: 185px;
+	/*width: 16%;*/
+	border-left: 2px solid;
+	border-top: 2px solid;
+	border-right: 0px;
+	border-bottom: 2px solid;
+	border-color: #024a68;
+}
+#nav ul li:last-child {
+	border: 2px solid;
+	border-color: #024a68;
+}
+#nav ul li a {
+	text-decoration: none;
+	color:#00A080
+}
+#last {
+	border-left: 2px solid;
+	border-right: 2px solid;
+	margin-right: 2px;
+	padding-right: 2px;
+}
+#info {
+	/*margin-left: 42px;*/
+	margin-right: auto;
+	float: left;
+	line-height: .5px;
+	clear: left;
+
+}
+#bannerinfo {
+	width: 1122px;
+	display: block;
+	margin-left: 42px;
+	clear: right;
+}
+#accountlink {
+	float: right;
+	margin-left: 100px;
+	/*margin-right: 40px;*/
+}
+.clear {
+	clear: both;
+}
+#menulist{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+}
+.bullet {
+	padding-left: 0px;
+}
+#header{
+	width: 93.5%;
+	height: 200px;
+	padding: 10px;
+	margin-left: 2.5%;
+	margin-right: 3%;
+	background-color: #FFA540;
+	text-align: center;
+}
